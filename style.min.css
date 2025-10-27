@@ -1,0 +1,28 @@
+:root {
+  --cor-primaria: #004aad;
+  --cor-secundaria: #fdbb2d;
+  --cor-neutra: #ffffff;
+  --fonte-base: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--fonte-base);
+  background-color: var(--cor-neutra);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  display: none;
+}
+
+button:hover {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-neutra);
+}
+
+:focus {
+  outline: 3px solid var(--cor-primaria);
+  outline-offset: 2px;
+}
